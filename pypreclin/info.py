@@ -81,7 +81,7 @@ REQUIRES = [
     "pyconnectomist>=2.0.0",
     "nipype>=1.0.1",
     "matplotlib==3.0.3",
-    "nibabel>=1.1.0",
+    "nibabel==3.0.0",
     "joblib>=0.13.2",
     "transforms3d>=0.3.1",
     "filelock>=3.0.12"]

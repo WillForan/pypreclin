@@ -150,7 +150,7 @@ def switch_radiological_neurological(in_file, out_file):
     im = nibabel.load(in_file)
     switch_im = nibabel.Nifti1Image(
         im.get_data()[::-1, :, :], affine=im.get_affine(),
-        header=im.get_header())
+        header=im.header)
     nibabel.save(switch_im, out_file)
 
 
